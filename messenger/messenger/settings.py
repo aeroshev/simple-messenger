@@ -120,13 +120,9 @@ SOCIAL_AUTH_VK_OAUTH2_KEY = ''
 SOCIAL_AUTH_VK_OAUTH2_SECRET = ''
 SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['email'] 
 
-CORS_ORIGIN_ALLOW_ALL = False 
+CORS_ORIGIN_ALLOW_ALL = False
 CORS_ALLOW_CREDENTIALS = True 
 CORS_ORIGIN_WHITELIST = ( 
     'http://127.0.0.1:3000', 
-    'https://127.0.0.1:8000', 
-    'http://localhost', 
-    'https://localhost', 
-    'http://aeroshev.chickenkiller.com', 
-    'https://aeroshev.github.io' 
+    'http://localhost:3000', 
 )

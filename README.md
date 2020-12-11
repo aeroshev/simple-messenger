@@ -21,3 +21,9 @@ cd messenger/
 
 ./manage.py runserver
 ```
+
+### 3. Host should be run
+
+frontend -> `http://127.0.0.1:3000`
+
+backend -> `http://127.0.0.1:8000`

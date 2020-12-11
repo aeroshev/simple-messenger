@@ -28,8 +28,8 @@ class ChatForm(forms.Form):
 
         if not 0 < members.count() < 20:
             self.add_error('members', 'Quantity members must be in interval 2-20')
-        if members.filter(username=user.username):
-            self.add_error('members', 'You already have member')
+        # if members.filter(username=user.username):
+        #     self.add_error('members', 'You already have member')
         if not is_group and members.count() > 2:
             self.add_error('is_group', 'Quantity of members exceed 2 members for a not group chat')
 
